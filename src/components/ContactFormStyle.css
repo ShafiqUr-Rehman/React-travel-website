@@ -1,0 +1,25 @@
+.contactForm{
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.contactForm form{
+    max-width: 520px;
+    width: 100%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contactForm input,.contactForm textarea{
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #2a2a2a;
+    border-radius: 0.3rem;
+}
+
+form button{
+    display: block;
+    margin-top: 1rem;
+}

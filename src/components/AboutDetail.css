@@ -1,0 +1,21 @@
+.aboutDetail{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 5rem;
+}
+
+.aboutDetail h2{
+    font-size: 2rem;
+}
+
+.aboutDetail p{
+    color: #777;
+    padding-top: 0.7rem;
+}
+
+@media (max-width:600px) {
+    .aboutDetail{
+        padding: 2rem 3rem;
+    }
+}
